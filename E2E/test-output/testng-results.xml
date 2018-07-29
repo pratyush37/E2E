@@ -1,17 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21041" started-at="2018-05-07T17:19:42Z" finished-at="2018-05-07T17:20:03Z">
+  <suite name="Default suite" duration-ms="41261" started-at="2018-05-20T14:47:59Z" finished-at="2018-05-20T14:48:40Z">
     <groups>
+      <group name="cucumber">
+        <method signature="RunCukesTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Org.java.BDDFeatureDefinition.RunCukesTest@38ae61]" name="feature" class="Org.java.BDDFeatureDefinition.RunCukesTest"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="21041" started-at="2018-05-07T17:19:42Z" finished-at="2018-05-07T17:20:03Z">
-      <class name="del.dell">
-        <test-method status="PASS" signature="fish()[pri:0, instance:del.dell@bbfa04]" name="fish" duration-ms="20935" started-at="2018-05-07T22:49:42Z" finished-at="2018-05-07T22:50:03Z">
+    <test name="Default test" duration-ms="41261" started-at="2018-05-20T14:47:59Z" finished-at="2018-05-20T14:48:40Z">
+      <class name="Org.java.BDDFeatureDefinition.RunCukesTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Org.java.BDDFeatureDefinition.RunCukesTest@38ae61]" name="setUpClass" is-config="true" duration-ms="520" started-at="2018-05-20T20:17:59Z" finished-at="2018-05-20T20:18:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fish -->
-      </class> <!-- del.dell -->
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:Org.java.BDDFeatureDefinition.RunCukesTest@38ae61]" name="openURL" is-config="true" duration-ms="13772" started-at="2018-05-20T20:18:00Z" finished-at="2018-05-20T20:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Org.java.BDDFeatureDefinition.RunCukesTest@38ae61]" name="feature" duration-ms="330" started-at="2018-05-20T20:18:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-20T20:18:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[close search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="CloseURL()[pri:0, instance:Org.java.BDDFeatureDefinition.RunCukesTest@38ae61]" name="CloseURL" is-config="true" duration-ms="4252" started-at="2018-05-20T20:18:15Z" finished-at="2018-05-20T20:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseURL -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:Org.java.BDDFeatureDefinition.RunCukesTest@38ae61]" name="openURL" is-config="true" duration-ms="16781" started-at="2018-05-20T20:18:19Z" finished-at="2018-05-20T20:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Org.java.BDDFeatureDefinition.RunCukesTest@38ae61]" name="feature" duration-ms="4" started-at="2018-05-20T20:18:36Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-20T20:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="CloseURL()[pri:0, instance:Org.java.BDDFeatureDefinition.RunCukesTest@38ae61]" name="CloseURL" is-config="true" duration-ms="4197" started-at="2018-05-20T20:18:36Z" finished-at="2018-05-20T20:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseURL -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Org.java.BDDFeatureDefinition.RunCukesTest@38ae61]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2018-05-20T20:18:40Z" finished-at="2018-05-20T20:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Org.java.BDDFeatureDefinition.RunCukesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

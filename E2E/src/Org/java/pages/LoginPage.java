@@ -18,6 +18,7 @@ public class LoginPage {
 	public void EnterUsername(String uname)
 	{
 		driver.findElement(By.id(rb.getString("login_username_id"))).sendKeys(uname);
+		
 	}
 	
 }

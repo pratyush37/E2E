@@ -1,5 +1,7 @@
 package Org.java.BDDFeatureDefinition;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Listeners;
 
@@ -11,6 +13,7 @@ import Org.java.base.DriverIniitiate;
 import Org.java.utility.ScreenShot;
 import Org.java.utility.extentReport;
 import cucumber.api.CucumberOptions;
+import cucumber.api.DataTable;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -47,6 +50,32 @@ public class StepDefinition {
 	    System.out.println("d");
 	    
 	}
+
+	 
+	 @Given("^User is on homeepageasdf$")
+	 public void user_is_on_homeepageasdf() throws Throwable {
+	     // Write code here that turns the phrase above into concrete actions
+	       System.out.println("f");
+	 }
+
+	 @When("^User_Enters_Usernamesad$")
+	 public void user_enters_usernamesad() throws Throwable {
+	     // Write code here that turns the phrase above into concrete actions
+		    System.out.println("g");
+	 }
+
+	 @When("^User_enters passwordsdf$")
+	 public void user_enters_passwordsdf(DataTable arg1) throws Throwable {
+		 List<List<String>> data = arg1.raw();
+			System.out.println((data.get(0).get(0))); 
+			System.out.println((data.get(0).get(1))); 
+	     // Write code here that turns the phrase above into concrete actions
+	     // For automatic transformation, change DataTable to one of
+	     // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+	     // E,K,V must be a scalar (String, Integer, Date, enum etc)
+	     throw new PendingException();
+	 }
+	
 	 @Then("^User_Logout$")
 	    public void user_logout() throws Throwable {
 	        // Write code here that turns the phrase above into concrete actions

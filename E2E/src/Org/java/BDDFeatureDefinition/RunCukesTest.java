@@ -30,7 +30,7 @@ public class RunCukesTest extends DriverIniitiate{
         testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
     }
  
-    @Test(groups = "cucumber", description = "Runs Cucumber Feature", dataProvider = "features")
+   @Test(groups = "cucumber", description = "Runs Cucumber Feature", dataProvider = "features")
     public void feature(CucumberFeatureWrapper cucumberFeature) {
         testNGCucumberRunner.runCucumber(cucumberFeature.getCucumberFeature());
     }

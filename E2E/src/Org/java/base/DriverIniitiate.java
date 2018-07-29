@@ -20,8 +20,8 @@ public class DriverIniitiate {
 	ResourceBundle rb;
 	@BeforeMethod
 	public void openURL() {
-		Logging l = new Logging();
-		l.log();
+		//Logging l = new Logging();
+	//	l.log();
 		rb =ResourceBundle.getBundle("details");
 		String URL= rb.getString("URL");
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
